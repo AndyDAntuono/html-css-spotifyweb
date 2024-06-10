@@ -1,0 +1,80 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: black;
+}
+
+.spotfy-top {
+	border: 1px solid cornflowerblue;
+}
+
+.navbar {
+	border: 1px solid gold;
+	float: left;
+}
+
+.inner-spotify {
+	border: 1px solid yellowgreen;
+}
+
+header {
+	border: 1px solid mediumorchid
+}
+main {
+	border: 1px solid orange;
+}
+
+footer {
+	border: 1px solid red
+}
+
+/************************************************
+    UTILITIES
+ ************************************************/
+
+/* LAYOUT */
+
+.spotfy-top {
+	height: 1000px;
+}
+
+.navbar {
+	float: left;
+	height: 1000px;
+	width: 80px;
+
+}
+
+.inner-spotify {
+	height: 1000px;
+	width: 400px;
+}
+
+header {
+	width: 400px;
+	height: 80px;
+}
+main {
+	border: 1px solid orange;
+	width: 400px;
+	height: 920px;
+	overflow: hidden;
+}
+
+footer {
+	width: 480px;
+	margin: 0 auto;
+    padding: 0 20px;
+	height: 80px;
+}
+
+.container {
+    width: 480px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.row {
+    display: flex;
+}
