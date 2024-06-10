@@ -69,6 +69,9 @@ footer {
 header {
 	height: 80px;
 	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
 }
 
 
@@ -89,7 +92,6 @@ footer {
 	width: 90%;
 	margin-right: auto;
 	margin-left: auto;
-	text-align: center;
 }
 
 .search, .library {
@@ -102,4 +104,96 @@ footer {
 
 .navbar-bottom-content img {
 	margin-top: 10px;
+}
+
+.upgrade {
+	background-color: black;
+	border: 1px solid white;
+	color: white;
+	width: 50%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 20px;
+}
+
+.main-top-content {
+	width: 100%;
+	height: 100px;
+	border: 1px solid magenta;
+	position: relative;
+}
+
+.mtc-text {
+	color: white;
+	font-size: 15px;
+}
+
+.highlighted {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.podcast {
+	position: absolute;
+	top: 0;
+	left: 100px;
+}
+
+.rankings {
+	position: absolute;
+	top: 0;
+	left: 175px;
+}
+
+.genood {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.new-releases {
+	position: absolute;
+	bottom: 0;
+	left: 110px;
+}
+
+.discover {
+	position: absolute;
+	bottom: 0;
+	left: 230px;
+}
+
+
+.green-hr {
+	color: yellowgreen;
+	width: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	visibility: hidden;
+}
+
+.mtc-text:hover .green-hr {
+	visibility: visible;
+}
+
+.main-bottom-content {
+	width: 100%;
+}
+
+.playlist-card {
+	width: calc(99% / 2);
+	display: inline-block;
+}
+
+.playlist-pic img {
+	width: 100%;
+}
+
+.playlist-title h1 {
+	color: white;
+}
+
+.playlist-author {
+	color: lightslategray;
 }
