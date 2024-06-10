@@ -7,6 +7,7 @@
 
 .spotfy-top {
 	border: 1px solid cornflowerblue;
+	overflow: hidden;
 }
 
 .navbar {
@@ -21,12 +22,17 @@
 header {
 	border: 1px solid mediumorchid
 }
+
 main {
 	border: 1px solid orange;
 }
 
 footer {
 	border: 1px solid red
+}
+
+.text-center {
+	text-align: center;
 }
 
 /************************************************
@@ -39,28 +45,38 @@ footer {
 	height: 1000px;
 }
 
+.container {
+    width: 480px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
 .navbar {
 	float: left;
 	height: 1000px;
-	width: 80px;
-
+	width: 6%;
+	color: white;
 }
 
 .inner-spotify {
 	height: 1000px;
-	width: 400px;
+	width: 94%;
 }
 
 header {
-	width: 400px;
 	height: 80px;
+	width: 100%;
 }
+
+
 main {
-	border: 1px solid orange;
-	width: 400px;
 	height: 920px;
-	overflow: hidden;
+	width: 100%;
 }
+
 
 footer {
 	width: 480px;
@@ -69,12 +85,21 @@ footer {
 	height: 80px;
 }
 
-.container {
-    width: 480px;
-    margin: 0 auto;
-    padding: 0 20px;
+.col-90 {
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
 }
 
-.row {
-    display: flex;
+.search, .library {
+	margin-top: 10px;
+}
+
+.navbar-bottom-content {
+	margin-top: 830px;
+}
+
+.navbar-bottom-content img {
+	margin-top: 10px;
 }
