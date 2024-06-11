@@ -7,7 +7,6 @@
 
 .spotfy-top {
 	border: 1px solid cornflowerblue;
-	overflow: hidden;
 }
 
 .navbar {
@@ -17,6 +16,7 @@
 
 .inner-spotify {
 	border: 1px solid yellowgreen;
+	height: 700px;
 }
 
 header {
@@ -28,7 +28,7 @@ main {
 }
 
 footer {
-	border: 1px solid red
+	border: 1px solid red;;
 }
 
 .text-center {
@@ -41,13 +41,10 @@ footer {
 
 /* LAYOUT */
 
-.spotfy-top {
-	height: 1000px;
-}
-
 .container {
     width: 480px;
     margin: 0 auto;
+	position: relative;
 }
 
 .row {
@@ -56,14 +53,14 @@ footer {
 
 .navbar {
 	float: left;
-	height: 1000px;
 	width: 6%;
 	color: white;
 }
 
 .inner-spotify {
-	height: 1000px;
 	width: 94%;
+	overflow-x: hidden;
+	overflow-y: scroll;
 }
 
 header {
@@ -76,7 +73,6 @@ header {
 
 
 main {
-	height: 920px;
 	width: 100%;
 }
 
@@ -99,7 +95,7 @@ footer {
 }
 
 .navbar-bottom-content {
-	margin-top: 830px;
+	margin-top: 530px;
 }
 
 .navbar-bottom-content img {
@@ -125,7 +121,7 @@ footer {
 
 .mtc-text {
 	color: white;
-	font-size: 15px;
+	font-size: 13px;
 }
 
 .highlighted {
@@ -181,8 +177,20 @@ footer {
 	width: 100%;
 }
 
+.main-bottom-content h1 {
+	color: white;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.main-bottom-content p {
+	color: grey;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 .playlist-card {
-	width: calc(99% / 2);
+	width: calc(98% / 2);
 	display: inline-block;
 }
 
@@ -195,5 +203,61 @@ footer {
 }
 
 .playlist-author {
+	color: lightslategray;
+}
+
+/*FOOTER*/
+
+.f-container{
+	width: 480px;
+}
+
+.col-5 {
+	width: 5%;
+	color: white;
+}
+
+.col-18 {
+	width: 18%;
+}
+
+.col-23 {
+	width: 23%;
+}
+
+.col-50 {
+	width: 50%;
+}
+
+
+.f-col {
+	background-color: pink;
+	height: 75px;
+	display: inline-block;
+}
+
+.f-col-90 {
+	width: 90%;
+	border: 1px solid aqua;
+	height: 75px;
+}
+
+.f-playlist-card {
+	display: flex;
+}
+
+.f-playlist-pic img {
+	width: 40%;
+}
+
+.f-plalist-text {
+	font-size: 5px;
+}
+
+.f-playlist-title h1 {
+	color: white;
+}
+
+.f-playlist-author {
 	color: lightslategray;
 }
