@@ -51,42 +51,45 @@ footer {
     display: flex;
 }
 
-.navbar {
-	float: left;
-	width: 6%;
+.col-5 {
+	width: 5%;
+	color: white;
+	display: inline-block;
+}
+
+.col-18 {
+	width: 18%;
+	background-color: pink;
+}
+
+.col-27 {
+	width: 27%;
+	background-color: pink;
 	color: white;
 }
 
-.inner-spotify {
-	width: 94%;
-	overflow-x: hidden;
-	overflow-y: scroll;
-}
-
-header {
-	height: 80px;
-	width: 100%;
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
-}
-
-
-main {
-	width: 100%;
-}
-
-
-footer {
-	width: 480px;
-	margin: 0 auto;
-    padding: 0 20px;
+.col-50 {
+	width: 50%;
+	background-color: pink;
+	color: white;
 }
 
 .col-90 {
 	width: 90%;
 	margin-right: auto;
 	margin-left: auto;
+}
+
+/************************************************
+    SECTIONS
+ ************************************************/
+
+/*NAVBAR SECTION*/
+
+.navbar {
+	float: left;
+	width: 6%;
+	color: white;
 }
 
 .search, .library {
@@ -101,6 +104,24 @@ footer {
 	margin-top: 10px;
 }
 
+/*INNER-SPOTIFY SECTION*/
+
+.inner-spotify {
+	width: 94%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+/*HEADER SECTION*/
+
+header {
+	height: 80px;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
 .upgrade {
 	background-color: black;
 	border: 1px solid white;
@@ -110,6 +131,15 @@ footer {
 	padding-bottom: 10px;
 	border-radius: 20px;
 }
+
+/*MAIN SECTION*/
+
+main {
+	width: 100%;
+}
+
+
+/*MAIN TOP CONTENT SECTION*/
 
 .main-top-content {
 	width: 100%;
@@ -172,6 +202,8 @@ footer {
 	visibility: visible;
 }
 
+/*MAIN BOTTOM CONTENT SECTION-*/
+
 .main-bottom-content {
 	width: 100%;
 }
@@ -207,6 +239,12 @@ footer {
 
 /*FOOTER*/
 
+footer {
+	width: 480px;
+	margin: 0 auto;
+    padding: 0 20px;
+}
+
 .f-container {
 	width: 100%;
 	margin-right: auto;
@@ -214,29 +252,6 @@ footer {
 	border-left: 1px solid cyan;
 	border-right: 1px solid cyan;
 	display: flex;
-}
-
-.col-5 {
-	width: 5%;
-	color: white;
-	display: inline-block;
-}
-
-.col-18 {
-	width: 18%;
-	background-color: pink;
-}
-
-.col-27 {
-	width: 27%;
-	background-color: pink;
-	color: white;
-}
-
-.col-50 {
-	width: 50%;
-	background-color: pink;
-	color: white;
 }
 
 .f-playlist-card {
