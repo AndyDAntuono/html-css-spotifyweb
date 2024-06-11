@@ -11,7 +11,6 @@
 
 .navbar {
 	border: 1px solid gold;
-	float: left;
 }
 
 .inner-spotify {
@@ -90,18 +89,58 @@ footer {
 	float: left;
 	width: 6%;
 	color: white;
+	text-align: center;
 }
 
-.search, .library {
+#logo {
+	background-image: url(../img/logo-small.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 20px;
+}
+
+.home, .search, .library {
 	margin-top: 10px;
+}
+
+.ntc-text {
+	display: inline-block;
+	visibility: hidden;
+}
+
+.playlist-menu {
+	visibility: hidden;
 }
 
 .navbar-bottom-content {
-	margin-top: 530px;
+	margin-top: 60px;
 }
 
-.navbar-bottom-content img {
+.nbc-icon-text {
+	visibility: hidden;
+}
+
+.navbar-bottom-content hr {
+	visibility: hidden;
+}
+
+.user-profile {
 	margin-top: 10px;
+}
+
+.nbc-pic {
+	background-color: gray;
+	background-image: url(../img/profile.svg);
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	width: 100%;
+	height: 25px;
+}
+
+.nbc-pic-text {
+	display: inline-block;
+	visibility: hidden;
 }
 
 /*INNER-SPOTIFY SECTION*/
@@ -333,3 +372,114 @@ footer {
 	width: 10px;
 	height: 10px;
 }
+
+
+/************************************************
+    MEDIA SCREEN 600px
+ ************************************************/
+
+ @media screen and (min-width: 600px) {
+	.container {
+		width: 600px;
+		margin: 0 auto;
+		position: relative;
+	}
+
+	/************************************************
+    SECTIONS
+ ************************************************/
+
+/*NAVBAR SECTION*/
+
+	.navbar {
+		width: 40%;
+		text-align: left;
+	}
+	
+	#logo {
+		margin-top: 5px;
+		background-image: url(../img/logo.svg);
+		background-position: left;
+		background-size: 80%;
+		height: 60px;
+	}
+
+	.home-img, .search-img, .library-img {
+		width: 25%;
+	}
+
+	.ntc-text {
+		display: inline-block;
+		visibility: visible;
+	}
+
+	.playlist-menu {
+		visibility: visible;
+		margin-top: 30px;
+		margin-left: 5px;
+	}
+
+	.square-plus {
+		margin-top: 10px;
+		margin-left: 5px;
+	}
+
+	.fa-square-plus {
+		font-size: 40px;
+	}
+
+	.square-plus-text {
+		display: inline-block;
+	}
+
+	.playlist-ul {
+		margin-top: 10px;
+		margin-left: 5px;
+		list-style: none;
+	}
+
+	.playlist-ul li {
+		margin-bottom: 10px;
+	}
+
+	.nbc-icon-text {
+		visibility: visible;
+		display: inline-block;
+	}
+
+	.navbar-bottom-content hr {
+		visibility: visible;
+		margin-top: 10px;
+	}
+
+	.user-profile {
+		margin-top: 10px;
+		display: flex;
+	}
+
+	.navbar-bottom-content {
+		margin-top: 60px;
+	}
+	
+
+	.nbc-pic {
+		background-color: gray;
+		background-image: url(../img/profile.svg);
+		background-position: center;
+		background-repeat: no-repeat;
+		border-radius: 50%;
+		width: 12%;
+		height: 25px;
+	}
+
+	.nbc-pic-text {
+		margin-left: 10px;
+		visibility: visible;
+	}
+
+	/*INNER-SPOTIFY SECTION*/
+
+	.inner-spotify {
+		width: 60%;
+	}
+ }
