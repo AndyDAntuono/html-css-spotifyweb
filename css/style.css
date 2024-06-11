@@ -225,7 +225,7 @@ main {
 	visibility: visible;
 }
 
-/*MAIN BOTTOM CONTENT SECTION-*/
+/*MAIN BOTTOM CONTENT SECTION*/
 
 .main-bottom-content {
 	width: 100%;
@@ -366,7 +366,6 @@ footer {
 	.container {
 		width: 600px;
 		margin: 0 auto;
-		position: relative;
 	}
 
 	/************************************************
@@ -527,5 +526,15 @@ footer {
 		font-size: 13px;
 	}
 
+	/*MAIN BOTTOM CONTENT SECTION*/
 
-}
+	.playlist-pic img:hover {
+		background-color: white;
+		background-image: url(../img/circle-play-regular.svg);
+		background-size: 50%;
+		background-repeat: no-repeat;
+		background-position: center;
+		opacity: 0.5;
+	}
+
+ }
