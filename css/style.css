@@ -180,54 +180,38 @@ main {
 
 /*MAIN TOP CONTENT SECTION*/
 
-.main-top-content {
+.main-top-content-upper {
 	width: 100%;
-	height: 100px;
 	border: 1px solid magenta;
-	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.new-releases-upper {
+	display: none;
+}
+
+.discover-upper {
+	display: none;
+}
+
+.main-top-content-lower {
+	width: 100%;
+	border: 1px solid magenta;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.genood-lower {
+	display: none;
 }
 
 .mtc-text {
 	color: white;
 	font-size: 13px;
 }
-
-.highlighted {
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-.podcast {
-	position: absolute;
-	top: 0;
-	left: 100px;
-}
-
-.rankings {
-	position: absolute;
-	top: 0;
-	left: 175px;
-}
-
-.genood {
-	position: absolute;
-	top: 0;
-	right: 0;
-}
-
-.new-releases {
-	position: absolute;
-	bottom: 0;
-	left: 110px;
-}
-
-.discover {
-	position: absolute;
-	bottom: 0;
-	left: 230px;
-}
-
 
 .green-hr {
 	color: yellowgreen;
@@ -482,4 +466,66 @@ footer {
 	.inner-spotify {
 		width: 60%;
 	}
- }
+
+	/*HEADER SECTION*/
+	
+	header {
+		height: 80px;
+		width: 100%;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	
+	.upgrade {
+		background-color: black;
+		border: 1px solid white;
+		color: white;
+		width: 65%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-radius: 20px;
+		font-size: 15px;
+	}
+
+	/*MAIN TOP CONTENT SECTION*/
+
+	.main-top-content-upper {
+		width: 100%;
+	    border: 1px solid magenta;
+	    display: flex;
+	    flex-wrap: wrap;
+	    justify-content: space-between;
+	}
+
+    .new-releases-upper {
+		display: none;
+	}
+
+    .discover-upper {
+		display: none
+	}
+
+	.genood-upper {
+		display: none;
+	}
+	
+	.main-top-content-lower {
+		width: 100%;
+		border: 1px solid magenta;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	
+	.genood-lower {
+		display: inline;
+	}
+
+	.mtc-text {
+		color: white;
+		font-size: 13px;
+	}
+
+
+}
