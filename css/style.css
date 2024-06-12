@@ -48,29 +48,6 @@ footer {
     display: flex;
 }
 
-.col-5 {
-	width: 5%;
-	color: white;
-	display: inline-block;
-}
-
-.col-18 {
-	width: 18%;
-	background-color: pink;
-}
-
-.col-27 {
-	width: 27%;
-	background-color: pink;
-	color: white;
-}
-
-.col-50 {
-	width: 50%;
-	background-color: pink;
-	color: white;
-}
-
 .col-90 {
 	width: 90%;
 	margin-right: auto;
@@ -316,6 +293,11 @@ footer {
 	display: flex;
 }
 
+.f-playlist-col {
+	width: 18%;
+	background-color: pink;
+}
+
 .f-playlist-card {
 	display: flex;
 	justify-content: space-between;
@@ -335,6 +317,18 @@ footer {
 
 .f-playlist-author {
 	color: lightslategray;
+}
+
+.heart-folder-col{
+	width: 5%;
+	color: white;
+	display: inline-block;
+}
+
+.player-col {
+	width: 50%;
+	background-color: pink;
+	color: white;
 }
 
 .player {
@@ -368,12 +362,13 @@ footer {
 	height: 10px;
 }
 
-.volume-bar {
-	margin-left: 10px;
-	margin-right: auto;
+.footer-left-content-col {
+	width: 27%;
+	background-color: pink;
+	color: white;
 }
 
-.player-left-content {
+.footer-left-content {
 	display: flex;
 	justify-content: space-between;
 	margin-top: 10px;
@@ -383,6 +378,12 @@ footer {
 	margin-left: 5px;
 	font-size: 12px;
 }
+
+.volume-bar {
+	margin-left: 10px;
+	margin-right: auto;
+}
+
 
 .vb-total {
 	background-color:dimgray;
@@ -577,6 +578,29 @@ footer {
 		width: 600px;
 	}
 
+	.f-playlist-col {
+		width: 13%;
+		background-color: pink;
+	}
+	
+	.heart-folder-col{
+		width: 5%;
+		color: white;
+		display: inline-block;
+	}
+	
+	.player-col {
+		width: 59%;
+		background-color: pink;
+		color: white;
+	}
+	
+	.footer-left-content-col {
+		width: 23%;
+		background-color: pink;
+		color: white;
+	}
+
 }
 
 /************************************************
@@ -675,6 +699,30 @@ MEDIA SCREEN 768pxpx
 		width: 768px;
 	}
 
+	.f-playlist-col {
+		width: 9%;
+		background-color: pink;
+	}
+	
+	.heart-folder-col{
+		width: 5%;
+		color: white;
+		display: inline-block;
+	}
+	
+	.player-col {
+		width: 59%;
+		background-color: pink;
+		color: white;
+	}
+	
+	.footer-left-content-col {
+		width: 27%;
+		background-color: pink;
+		color: white;
+	}
+
+
  }
 
 /************************************************
@@ -756,5 +804,27 @@ MEDIA SCREEN 1200px
 	footer {
 		width: 1200px;
 	}
-
+	
+	.f-playlist-col {
+		width: 9%;
+		background-color: pink;
+	}
+	
+	.heart-folder-col{
+		width: 5%;
+		color: white;
+		display: inline-block;
+	}
+	
+	.player-col {
+		width: 62%;
+		background-color: pink;
+		color: white;
+	}
+	
+	.footer-left-content-col {
+		width: 24%;
+		background-color: pink;
+		color: white;
+	}
 }
