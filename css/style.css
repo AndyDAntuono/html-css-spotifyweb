@@ -245,6 +245,7 @@ main {
 .playlist-card {
 	width: calc(98% / 2);
 	display: inline-block;
+	margin-bottom: 10px;
 }
 
 .playlist-pic {
@@ -258,6 +259,7 @@ main {
 	position: absolute;
 	bottom: 50px;
 	right: 50px;
+	z-index: 2;
 	visibility: hidden;
 }
 
@@ -291,6 +293,8 @@ main {
 
 .playlist-title h1 {
 	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .playlist-author {
@@ -535,12 +539,12 @@ footer {
 		display: none;
 	}
 
-    .discover-upper {
-		display: none
-	}
-
 	.genood-upper {
 		display: none;
+	}
+
+    .discover-upper {
+		display: none
 	}
 	
 	.main-top-content-lower {
@@ -584,11 +588,91 @@ MEDIA SCREEN 768pxpx
 		width: 768px;
 	}
 
+	/************************************************
+    SECTIONS
+    ************************************************/
+
+    /*NAVBAR SECTION*/
+
+	.navbar {
+		width: 20%;
+		text-align: left;
+	}
+	
+	/*INNER-SPOTIFY SECTION*/
+
+	.inner-spotify {
+		width: 80%;
+	}
 
 	/*FOOTER*/
 	
 	footer {
 		width: 768px;
+	}
+
+	/*HEADER SECTION*/
+
+	.upgrade {
+		background-color: black;
+		border: 1px solid white;
+		color: white;
+		width: 40%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-radius: 20px;
+		font-size: 15px;
+	}
+
+	/*MAIN TOP CONTENT SECTION*/
+
+	.main-top-content-upper {
+		width: 100%;
+	    border: 1px solid magenta;
+	    display: flex;
+	    flex-wrap: wrap;
+	    justify-content: space-between;
+	}
+
+	.genood-upper {
+		display: block;
+	}
+
+    .new-releases-upper {
+		display: block;
+	}
+
+    .discover-upper {
+		display: none
+	}
+	
+	.main-top-content-lower {
+		width: 100%;
+		border: 1px solid magenta;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.new-releases-lower {
+		display: none;
+	}
+	
+	.genood-lower {
+		display: none;
+	}
+
+	/*MAIN BOTTOM CONTENT SECTION*/
+
+	.playlist-card {
+		width: calc(95% / 4);
+		display: inline-block;
+	}
+
+	.playlist-pic i {
+		font-size: 80px;
+		bottom: 30px;
+		left: 30px;
 	}
 
 }
