@@ -2,7 +2,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	background-color: black;
 }
 
 .spotfy-top {
@@ -10,24 +9,24 @@
 }
 
 .navbar {
-	border: 1px solid gold;
+	background-color: rgba(0,0,0,255);
 }
 
 .inner-spotify {
-	border: 1px solid yellowgreen;
+	background-color: rgba(20,25,34,255);
 	height: 700px;
 }
 
 header {
-	border: 1px solid mediumorchid
+	background-color: rgba(8,11,18,255);
 }
 
 main {
-	border: 1px solid orange;
+	background-color: rgba(20,25,34,255);
 }
 
 footer {
-	border: 1px solid red;;
+	background-color: rgba(40,40,40,255);
 }
 
 .text-center {
@@ -157,7 +156,6 @@ main {
 
 .main-top-content-upper {
 	width: 100%;
-	border: 1px solid magenta;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -173,7 +171,6 @@ main {
 
 .main-top-content-lower {
 	width: 100%;
-	border: 1px solid magenta;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -288,14 +285,11 @@ footer {
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
-	border-left: 1px solid cyan;
-	border-right: 1px solid cyan;
 	display: flex;
 }
 
 .f-playlist-col {
 	width: 18%;
-	background-color: pink;
 }
 
 .f-playlist-card {
@@ -327,7 +321,6 @@ footer {
 
 .player-col {
 	width: 50%;
-	background-color: pink;
 	color: white;
 }
 
@@ -364,7 +357,6 @@ footer {
 
 .footer-left-content-col {
 	width: 27%;
-	background-color: pink;
 	color: white;
 }
 
@@ -530,7 +522,6 @@ footer {
 
 	.main-top-content-upper {
 		width: 100%;
-	    border: 1px solid magenta;
 	    display: flex;
 	    flex-wrap: wrap;
 	    justify-content: space-between;
@@ -550,7 +541,7 @@ footer {
 	
 	.main-top-content-lower {
 		width: 100%;
-		border: 1px solid magenta;
+
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
@@ -580,7 +571,7 @@ footer {
 
 	.f-playlist-col {
 		width: 13%;
-		background-color: pink;
+
 	}
 	
 	.heart-folder-col{
@@ -591,13 +582,13 @@ footer {
 	
 	.player-col {
 		width: 59%;
-		background-color: pink;
+
 		color: white;
 	}
 	
 	.footer-left-content-col {
 		width: 23%;
-		background-color: pink;
+
 		color: white;
 	}
 
@@ -646,7 +637,6 @@ MEDIA SCREEN 768pxpx
 
 	.main-top-content-upper {
 		width: 100%;
-	    border: 1px solid magenta;
 	    display: flex;
 	    flex-wrap: wrap;
 	    justify-content: space-between;
@@ -666,7 +656,7 @@ MEDIA SCREEN 768pxpx
 	
 	.main-top-content-lower {
 		width: 100%;
-		border: 1px solid magenta;
+
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
@@ -701,7 +691,7 @@ MEDIA SCREEN 768pxpx
 
 	.f-playlist-col {
 		width: 9%;
-		background-color: pink;
+
 	}
 	
 	.heart-folder-col{
@@ -712,13 +702,13 @@ MEDIA SCREEN 768pxpx
 	
 	.player-col {
 		width: 59%;
-		background-color: pink;
+
 		color: white;
 	}
 	
 	.footer-left-content-col {
 		width: 27%;
-		background-color: pink;
+
 		color: white;
 	}
 
@@ -807,7 +797,7 @@ MEDIA SCREEN 1200px
 	
 	.f-playlist-col {
 		width: 9%;
-		background-color: pink;
+
 	}
 	
 	.heart-folder-col{
@@ -818,13 +808,13 @@ MEDIA SCREEN 1200px
 	
 	.player-col {
 		width: 62%;
-		background-color: pink;
+
 		color: white;
 	}
 	
 	.footer-left-content-col {
 		width: 24%;
-		background-color: pink;
+
 		color: white;
 	}
 }
