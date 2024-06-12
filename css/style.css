@@ -42,8 +42,6 @@ footer {
 
 .container {
     width: 480px;
-    margin: 0 auto;
-	position: relative;
 }
 
 .row {
@@ -229,6 +227,7 @@ main {
 
 .main-bottom-content {
 	width: 100%;
+	position: relative;
 }
 
 .main-bottom-content h1 {
@@ -248,6 +247,44 @@ main {
 	display: inline-block;
 }
 
+.playlist-pic {
+	position: relative;
+}
+
+.playlist-pic i {
+	font-size: 100px;
+	background-color: rgba(0, 0, 0, 0);
+	color: white;
+	position: absolute;
+	bottom: 50px;
+	right: 50px;
+	visibility: hidden;
+}
+
+.playlist-pic:hover i {
+	visibility: visible;
+}
+
+.visible-pic {
+	width: 100%;
+	display: block;
+}
+
+.invisible-pic {
+	width: 100%;
+	display: none;
+}
+
+.playlist-pic:hover .visible-pic {
+	display: none;
+}
+
+.playlist-pic:hover .invisible-pic {
+	display: block;
+	background-color: black;
+	opacity: 0.5;
+}
+
 .playlist-pic img {
 	width: 100%;
 }
@@ -264,8 +301,6 @@ main {
 
 footer {
 	width: 480px;
-	margin: 0 auto;
-    padding: 0 20px;
 }
 
 .f-container {
@@ -365,14 +400,13 @@ footer {
  @media screen and (min-width: 600px) {
 	.container {
 		width: 600px;
-		margin: 0 auto;
 	}
 
 	/************************************************
     SECTIONS
- ************************************************/
+    ************************************************/
 
-/*NAVBAR SECTION*/
+    /*NAVBAR SECTION*/
 
 	.navbar {
 		width: 40%;
@@ -528,13 +562,33 @@ footer {
 
 	/*MAIN BOTTOM CONTENT SECTION*/
 
-	.playlist-pic img:hover {
-		background-color: white;
-		background-image: url(../img/circle-play-regular.svg);
-		background-size: 50%;
-		background-repeat: no-repeat;
-		background-position: center;
-		opacity: 0.5;
+	.playlist-pic i {
+		bottom: 30px;
+		right: 30px;
 	}
 
- }
+	/*FOOTER*/
+	
+	footer {
+		width: 600px;
+	}
+
+}
+
+/************************************************
+MEDIA SCREEN 768pxpx
+************************************************/
+
+ @media screen and (min-width: 768px) {
+	.container {
+		width: 768px;
+	}
+
+
+	/*FOOTER*/
+	
+	footer {
+		width: 768px;
+	}
+
+}
