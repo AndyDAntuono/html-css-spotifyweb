@@ -213,7 +213,7 @@ main {
 
 .green-hr {
 	color: yellowgreen;
-	width: 10%;
+	width: 25%;
 	margin-left: auto;
 	margin-right: auto;
 	visibility: hidden;
@@ -605,12 +605,6 @@ MEDIA SCREEN 768pxpx
 		width: 80%;
 	}
 
-	/*FOOTER*/
-	
-	footer {
-		width: 768px;
-	}
-
 	/*HEADER SECTION*/
 
 	.upgrade {
@@ -673,6 +667,94 @@ MEDIA SCREEN 768pxpx
 		font-size: 80px;
 		bottom: 30px;
 		left: 30px;
+	}
+
+	/*FOOTER*/
+	
+	footer {
+		width: 768px;
+	}
+
+ }
+
+/************************************************
+MEDIA SCREEN 1200px
+************************************************/
+@media screen and (min-width: 1200px) {
+	.container {
+		width: 1200px;
+	}
+
+	/************************************************
+    SECTIONS
+    ************************************************/
+
+    /*NAVBAR SECTION*/
+
+	.navbar {
+		width: 15%;
+		text-align: left;
+	}
+	
+	/*INNER-SPOTIFY SECTION*/
+
+	.inner-spotify {
+		width: 85%;
+	}
+
+	/*HEADER SECTION*/
+
+	.upgrade {
+		background-color: black;
+		border: 1px solid white;
+		color: white;
+		width: 30%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-radius: 20px;
+		font-size: 15px;
+	}
+
+	/*MAIN TOP CONTENT SECTION*/
+
+	.main-top-content-upper {
+		width: 100%;
+	    justify-content: space-between;
+	}
+
+	.genood-upper {
+		display: block;
+	}
+
+    .new-releases-upper {
+		display: block;
+	}
+
+    .discover-upper {
+		display: block;
+	}
+	
+	.main-top-content-lower {
+		display: none;
+	}
+
+	/*MAIN BOTTOM CONTENT SECTION*/
+
+	.playlist-card {
+		width: calc(95% / 6);
+		display: inline-block;
+	}
+
+	.playlist-pic i {
+		font-size: 80px;
+		bottom: 30px;
+		left: 30px;
+	}
+
+	/*FOOTER*/
+	
+	footer {
+		width: 1200px;
 	}
 
 }
