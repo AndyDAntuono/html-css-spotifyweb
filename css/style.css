@@ -88,7 +88,7 @@ footer {
 }
 
 .navbar-bottom-content {
-	margin-top: 60px;
+	margin-top: 10px;
 }
 
 .nbc-icon-text {
@@ -416,10 +416,12 @@ footer {
 		background-position: left;
 		background-size: 80%;
 		height: 60px;
+		width: 80%;
+		
 	}
 
 	.home-img, .search-img, .library-img {
-		width: 25%;
+		width: 15%;
 	}
 
 	.ntc-text {
@@ -438,8 +440,11 @@ footer {
 		margin-left: 5px;
 	}
 
-	.fa-square-plus {
-		font-size: 40px;
+	.fa-plus {
+		font-size: 30px;
+		background-color: gray;
+		background-size: cover;
+		color: black;
 	}
 
 	.square-plus-text {
@@ -482,8 +487,8 @@ footer {
 		background-position: center;
 		background-repeat: no-repeat;
 		border-radius: 50%;
-		width: 12%;
-		height: 25px;
+		width: 15%;
+		height: 22px;
 	}
 
 	.nbc-pic-text {
